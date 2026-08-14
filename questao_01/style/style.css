@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(10, 14, 65);
+    color:rgb(255, 255, 255);
+    font-family: 'Robot Mono', monospace;
+    font-size: 14px;
+    margin-inline-start: 10px;
+    padding: 22px;
+    
+}
+
+.cartao {
+    background-color: rgb(41, 45, 102);
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.cartao a {
+    color:rgb(129, 136, 230);
+    &:hover {
+        background-color: rgb(192, 195, 240);
+        cursor: pointer;
+    }
+}
+
+.cartao img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 1px auto 10px auto;
+    border-radius: 50%;
+    object-fit: cover;
+}

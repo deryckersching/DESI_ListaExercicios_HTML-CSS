@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(78, 13, 13);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    height: auto;
+    width: 500px;
+}
+
+.receita {
+    width: 700px;
+    margin: 30px auto;
+    background-color: rgb(179, 24, 24);
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgb(253, 254, 255);
+}
+
+.receita img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* DIV DOS INGREDIENTES */
+.ingredientes {
+    background-color: rgb(209, 123, 43);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* DIV DO MODO DE PREPARO */
+.preparo {
+    background-color: rgb(156, 86, 20);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
