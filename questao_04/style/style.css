@@ -1,11 +1,12 @@
 body {
-    background-color: rgb(37, 37, 37);
+    background-color: rgba(37, 37, 37);
     color:rgb(15, 15, 15);
     font-family: 'Times New Roman', monospace;
     font-size: 20px;
     margin: 0px;
     min-height: 100vh;
     padding: 30px;
+    
     background-image: url("https://static.wikia.nocookie.net/transcendence-au/images/b/bf/GravityFallsOregon.png/revision/latest?cb=20191223130212");
     background-size: cover;
     background-position: center;
@@ -14,18 +15,30 @@ body {
     
 
 .cartao {
-    background-color: rgb(250, 213, 158);
+    background-color: rgba(250, 213, 158, 0.6);
     border: 0px solid rgb(255, 255, 255);
     border-radius: 20px;
-    width: 300px;
+    width: 400px;
     padding: 30px;
     margin: 1px auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .cartao a {
-    color:rgb(7, 7, 7);
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(173, 132, 71);
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+    border-radius: 100px;
     &:hover {
-        background-color: rgb(211, 210, 210);
+        background-color: rgb(148, 110, 53);
         cursor: pointer;
     }
 }

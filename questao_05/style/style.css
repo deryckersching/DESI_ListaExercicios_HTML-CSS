@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(255, 76, 76);
+    color:rgb(15, 15, 15);
+    font-family: 'Times New Roman', monospace;
+    font-size: 20px;
+    margin: 0px;
+    min-height: 100vh;
+    padding: 30px;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    
+
+.cartao {
+    background-color: rgba(250, 213, 158, 0.6);
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 400px;
+    padding: 30px;
+    margin: 1px auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+textarea {
+    width: 75%;
+    height: 70px;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    resize:horizontal;
+}
