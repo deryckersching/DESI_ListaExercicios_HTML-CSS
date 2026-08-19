@@ -1,36 +1,38 @@
 body {
-    background-color: rgb(255, 76, 76);
-    color:rgb(15, 15, 15);
-    font-family: 'Times New Roman', monospace;
-    font-size: 20px;
-    margin: 0px;
-    min-height: 100vh;
-    padding: 30px;
-    
+    background-image: url("https://assets.sbs.com.au/dims4/default/f2eb8ef/2147483647/strip/true/crop/1022x575+2+3/resize/1280x720!/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fdrupal%2Ftopics%2Fpublic%2Fgettyimages-463921683.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-}
+    background-attachment: fixed;
+
+    color: rgb(59, 59, 59);
+    font-family: 'Times New Roman', monospace;
+    font-size: 20px;
+
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
     
+}
 
 .cartao {
-    background-color: rgba(250, 213, 158, 0.6);
-    border: 0px solid rgb(255, 255, 255);
+    background-color: rgba(218, 177, 130, 0.90);
     border-radius: 20px;
-    width: 400px;
-    padding: 30px;
-    margin: 1px auto;
+
+    width: 90%;
+    max-width: 2000px;
+
+    padding: 20px;
+    margin: 8px auto;
 
     display: flex;
     flex-direction: column;
     gap: 10px;
+
+    box-sizing: border-box;
 }
 
-textarea {
-    width: 75%;
-    height: 70px;
-    padding: 30px;
-    border-radius: 8px;
-    border: 1px solid gray;
-    resize:horizontal;
+input::placeholder,
+textarea::placeholder {
+    color: gray;
 }

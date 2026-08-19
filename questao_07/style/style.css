@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color:rgb(253, 253, 253);
+    font-family: 'Mono', monospace;
+    font-size: 20px;
+    margin: 0px;
+    min-height: 100vh;
+    padding: 30px;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cartoes {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+
+.cartao {
+    background-color: rgb(7, 7, 7);
+    border: 10px solid rgb(175, 14, 14);
+    border-radius: 20px;
+    width: 400px;
+    padding: 30px;
+    margin: 5px auto;
+
+}
+
+.botao {
+    color:blue;
+}

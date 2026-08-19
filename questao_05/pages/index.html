@@ -22,51 +22,56 @@
     </header>
 
     <main>
-        <section class="formulario">
-            <h1>Incrição</h1>
-            <h2>Palestra sobre a História da Colonização na Áustralia</h2>
-            <h4>Preencha as Informações Abaixo :</h4>
-            
-            <form>
+    <section class="cartao">
 
-                <div class="campo">
-                    <label for="nome">Nome completo:</label>
-                    <input type="text" id="nome" name="nome">
+        <h1>Inscrição</h1>
 
-                <div class="campo">
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email">
-                </div>
+        <h2>Palestra sobre a História da Colonização na Austrália</h2>
 
-                <div class="campo">
-                    <label for="nascimento">Data de nascimento:</label>
-                    <input type="date" id="nascimento" name="nascimento">
-                </div>
+        <h4>Preencha as Informações Abaixo:</h4>
 
-                <div class="campo">
-                    <label for="ingresso">Tipo de ingresso :</label>
-                    <select id="ingresso" name="ingresso">
-                                <option value="selecione">selecione uma opção</option>
-                                <option value="inteira">Meia-entrada</option>
-                                <option value="meia">Inteira</option>
-                                <option value="vip">VIP</option>
-                    </select>
-                </div>
+        <form>
 
-                <div class="campo">
-                    <label for="observacao">Alguma observação?</label>
-                    <textarea 
-                        id="observacao" 
-                        name="observacao" 
-                        rows="5"
-                        placeholder="Digite alguma observação...">
-                    </textarea>
-                </div>
+            <div class="campo">
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+            </div>
 
-                    <button id="reset" type="reset">Limpar</button>
-                    <button id="submit" type="submit">Enviar</button>
+            <div class="campo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+            </div>
 
-                </div>
+            <div class="campo">
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="date" id="nascimento" name="nascimento">
+            </div>
 
+            <div class="campo">
+                <label for="ingresso">Tipo de ingresso:</label>
 
-                    </form>
+                <select id="ingresso" name="ingresso">
+                    <option value="selecione">Selecione uma opção</option>
+                    <option value="meia">Meia-entrada</option>
+                    <option value="inteira">Inteira</option>
+                    <option value="vip">VIP</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="observacao">Alguma observação?</label>
+
+                <textarea
+                    id="observacao"
+                    name="observacao"
+                    rows="5"
+                    placeholder="Digite alguma observação..."></textarea>
+            </div>
+
+            <button id="reset" type="reset">Limpar</button>
+            <button id="submit" type="submit">Enviar</button>
+
+        </form>
+
+    </section>
+</main>
