@@ -1,7 +1,7 @@
 body {
     background-color: rgb(0, 0, 0);
     color:rgb(253, 253, 253);
-    font-family: 'Mono', monospace;
+    font-family: 'Arial';
     font-size: 20px;
     margin: 0px;
     min-height: 100vh;
@@ -20,7 +20,7 @@ body {
 
 .cartao {
     background-color: rgb(7, 7, 7);
-    border: 10px solid rgb(175, 14, 14);
+    border: 6px solid rgb(175, 14, 14);
     border-radius: 20px;
     width: 400px;
     padding: 30px;
@@ -28,6 +28,27 @@ body {
 
 }
 
-.botao {
-    color:blue;
+.recomendado {
+    transform: translateY(-20px);
+    border:6px solid rgb(107, 13, 13);
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botoes button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(175, 14, 14);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botoes button:hover {
+    background-color: rgb(202, 59, 59);
 }
